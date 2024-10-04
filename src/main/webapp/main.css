@@ -1,0 +1,25 @@
+h1{
+    color: darkgreen;
+}
+h2{
+    color: darkblue;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 7cm;
+    width: 60%;
+}
+
+td, th {
+    border: 2px solid #C4E7BA;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(odd) {
+    background-color: #DFF5DA;
+}
+tr:nth-child(even) {
+    background-color: #C4E7BA;
+}
